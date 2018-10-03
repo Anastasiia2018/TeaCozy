@@ -1,0 +1,132 @@
+/* Header section*/
+
+header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  opacity: 0.9;
+}
+a {
+  color: white;
+}
+.logo img {
+ height: 50px;
+ padding-left: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+nav span {
+  text-decoration: underline;
+  display: inline-block;
+  padding: 20px 20px
+}
+
+/*Main section*/
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9px;
+  width: 1200px;
+  margin: auto;
+}
+
+/*Mission section*/
+
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#mission .content {
+margin: auto;
+background-color: black;
+width: 100%;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+/*Tea section*/
+
+.flex-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 1200px;
+margin: 0 auto;
+}
+.item {
+  padding: 5px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+#tea {
+  padding-top: 70px;
+}
+/*Locations section*/
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+#locations .flex-container {
+  margin: auto;
+}
+.flex-container .locations {
+  padding-top: 5px;
+}
+.location {
+  background-color: black;
+  flex-basis: 300px;
+  opacity: 1;
+  margin: 5px 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/*Contact section*/
+
+#contact {
+  height: 200px;
+}
+
+/*Footer section*/
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
